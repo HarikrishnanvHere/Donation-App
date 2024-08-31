@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div>
+                <h1 class="text-center">Register Your Organization</h1>
+            </div>
+            <div class="card card-body">
+                <form id="signupForm">
+                    <div><label for="name">Name of your Organization</label></div>
+                    <input id="name" type="text" required>
+                    <br>
+                    <br>
+                    <div><label for="email">E-mail</label></div>
+                    <input id="email" type="email" required>
+                    <br>
+                    <br>
+                    <div><label for="password">Password</label></div>
+                    <input id="password" type="password" required>
+                    <br>
+                    <br>
+                    <div><label for="mission">Your Mission</label></div>
+                    <textarea id="mission" rows="3" cols="80" required></textarea>
+                    <br>
+                    <br>
+                    <div><label for="goal">Goals and Targets</label></div>
+                    <textarea id="goal" rows="3" cols="80" required></textarea>
+                    <br>
+                    <br>
+                    <div><label for="target">Projects Involved</label></div>
+                    <textarea id="target" rows="3" cols="80" required></textarea>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+            </div>
+            <a href="../login/login.html">go to login page</a>
+            <p id="error">Request Status Failed!! (User Id or Email already present)!!</p>
+            
+        </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="orgSignup.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container card card-body">
+        <div>
+            <div id="notApproved">
+                <h1 class="text-center">Please Wait while for approval of your registration!</h1>
+                <br>
+                <p>Dont worry!! You will receive confirmation e-mail after your application is approved</p>
+            </div>
+            <div id="approved">
+                <h1 class="text-center" id="name"></h1>
+                <br>
+                <br>
+                
+                <h4>Our Goal:</h4>
+                <p id="goal"></p>
+                <h4>Our Missions:</h4>
+                <p id="mission"></p>
+                <h4>Our Targets:</h4>
+                <p id="target"></p>
+                <br>
+                <br>
+                <h4>Total Donations received till date:</h4>
+                <h3 id="total"></h3>
+            </div>
+           
+        </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="orgHome.js"></script>
+</body>
+</html>
